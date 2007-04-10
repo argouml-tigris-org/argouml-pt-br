@@ -23,15 +23,15 @@
 // CALIFORNIA HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT,
 // UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
-This is the build file for building the Brazilian Portugese localization
+This is the build file for building the Brazilian Portuguese localization
 for ArgoUML.
 
 To be able to run ArgoUML with the localization enabled you need to
-have argouml and argouml-pt (the traditional Portugese translation)
+have argouml and argouml-pt_BR (the traditional Brazilian Portuguese translation)
 available. To do this you can:
 
 1. check out the projects alongside this directory and build the
-   argouml project using the package target and then the argouml-pt
+   argouml project using the package target and then the argouml-pt_BR
    project using the install target.
 
 2. download a release and unpacked in a directory argouml/build
@@ -77,7 +77,7 @@ etc.
         <sysproperty key="log4j.configuration"
                    value="org/argouml/resource/error_console.lcf"/>
         <sysproperty key="user.language"
-                   value="pt"/>
+                   value="pt_BR"/>
         <classpath>
 	  <pathelement location="src"/>
 	  <path refid="run.classpath"/>
